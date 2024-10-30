@@ -5,8 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=0.37.1",
+    "google>=3.0.0",
     "numpy>=2.1.2",
     "openai>=1.52.2",
     "pandas>=2.2.3",
     "sqlalchemy>=2.0.36",
+    "vertexai>=1.71.0",
 ]
